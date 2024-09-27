@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.sadaros.norsk_tradisjonsmat.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
