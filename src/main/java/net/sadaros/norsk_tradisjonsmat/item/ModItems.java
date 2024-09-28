@@ -13,7 +13,14 @@ public class ModItems {
     public static final Item PINNEKJOTT = registerItem("pinnekjott",
             new Item(new FabricItemSettings()
                     .food(
-                            new FoodComponent.Builder().hunger(4).saturationModifier(5.0f).build()
+                            new FoodComponent.Builder().hunger(8).saturationModifier(2.0f).build()
+                    )
+                    .group(ModItemGroup.PINNEKJOTT)));
+    
+    public static final Item RAW_PINNEKJOTT = registerItem("raw_pinnekjott",
+            new Item(new FabricItemSettings()
+                    .food(
+                            new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build()
                     )
                     .group(ModItemGroup.PINNEKJOTT)));
 

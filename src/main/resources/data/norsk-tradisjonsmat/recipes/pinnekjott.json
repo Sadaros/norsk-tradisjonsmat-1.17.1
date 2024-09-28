@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "norsk-tradisjonsmat:raw_pinnekjøtt"
+  },
+  "result": "minecraft:pinnekjøtt",
+  "experience": 0.35,
+  "cookingtime": 200
+}

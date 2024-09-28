@@ -7,5 +7,6 @@ import net.minecraft.util.Identifier;
 import net.sadaros.norsk_tradisjonsmat.NorskTradisjonsmat;
 
 public class ModItemGroup {
-    public static final ItemGroup PINNEKJOTT = FabricItemGroupBuilder.build(new Identifier(NorskTradisjonsmat.MOD_ID, "ruby"),
+    public static final ItemGroup PINNEKJOTT = FabricItemGroupBuilder.build(
+            new Identifier(NorskTradisjonsmat.MOD_ID, "pinnekjott"),
             () -> new ItemStack(ModItems.PINNEKJOTT));}

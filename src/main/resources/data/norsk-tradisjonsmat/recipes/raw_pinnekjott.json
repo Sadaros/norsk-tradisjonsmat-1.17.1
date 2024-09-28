@@ -1,15 +1,29 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m",
+    "s",
+    "b"
+  ],
+  "key": {
+    "m": {
       "item": "minecraft:mutton"
     },
-    {
-      "item": "minecraft:stick"
+    "s": {
+      "item": "minecrat:stick"
+    },
+    "b": {
+      "item": "minecraft:waterbucket"
     }
-  ],
-  "result": {
-    "item": "norsk-tradisjonsmat:pinnekjott",
-    "count": 1
-  }
+  },
+  "result": [
+    {
+      "item": "norsktradisjonsmat:raw_pinnekjott",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bucket",
+      "count": 1
+    }
+  ]
 }
